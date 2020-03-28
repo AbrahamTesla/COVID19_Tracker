@@ -1,0 +1,28 @@
+{
+  "name": "covid",
+  "version": "1.0.0",
+  "description": "COVID19 Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamTesla/COVID19_Tracker.git"
+  },
+  "author": "Vincent Manlangit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrahamTesla/COVID19_Tracker/issues"
+  },
+  "homepage": "https://github.com/AbrahamTesla/COVID19_Tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.6",
+    "nodemon": "^2.0.2",
+    "npm": "^6.14.4"
+  }
+}
