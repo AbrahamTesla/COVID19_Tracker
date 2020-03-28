@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>COVID</title>
+  </head>
+  <body>
+    <h1>COVID19 Tracker</h1>
+        <div class="content">
+          <form>
+            <fieldset>
+              <label for="phoneNumber">Phone Number: </label><br />
+              <input type="number" id="phoneNumber" name="Phone Number" /> <br />
+              <label for="Email">Email: </label><br />
+              <input type="email" id="email" name="email  " /><br />
+              <label for="didYouTravel">Did You Travel for the 14 days? </label><br />
+              <input type="radio" id="yes" name="yes" value="yes" />
+              <label for="Yes">Yes </label><br />
+              <input type="radio" id="no" name="no" value="no" />
+              <label for="no">No </label>
+
+              <h3>Please select "Signs and Symptoms" of COVID19 if any?</h3>
+              <input type="radio" id="Cough" name="Cough" value="Cough" />
+              <label for="Cough">Cough </label><br />
+              <input
+                type="radio"
+                id="shortnessOfBreath"
+                name="shortnessOfBreath"
+                value="shortnessOfBreath"
+              />
+              <label for="no">Shortness of Breath </label><br />
+              <input type="radio" id="fever" name="fever" value="fever" />
+              <label for="fever">fever </label><br />
+              <input type="radio" id="runnyNose" name="runnyNose" value="runnyNose" />
+              <label for="runnyNose">Runny Nose</label><br />
+              <input type="radio" id="fatigue" name="fatigue" value="fatigue" />
+              <label for="fatigue">Fatigue</label>
+              <br /><br />
+              <h3>Locations You Visited</h3>
+              
+              </textarea>
+              <textarea id="locations" rows="10" cols="50" placeholder="type the exact public address where you visited..."></textarea>
+              
+              <hr />
+              <button id="submit">Submit</button>
+            </fieldset>
+          </form>
+      </div>
+  </body>
+</html>
